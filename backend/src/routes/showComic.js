@@ -1,6 +1,6 @@
 const routes = require('express').Router();
 
-const listComicsController = require('../app/controllers/listComicsController');
+const showComicsController = require('../app/controllers/showComicsController');
 
 routes.get('/comics', listComicsController.read);
 
